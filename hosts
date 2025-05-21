@@ -1,0 +1,2 @@
+[Kilin]
+192.168.0.131 ansible_ssh_user=slave ansible_sudo_pass=slave
