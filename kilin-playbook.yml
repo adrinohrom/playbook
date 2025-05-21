@@ -1,0 +1,10 @@
+- hosts: Kilin
+  become: yes
+  tasks:
+    -    name: install cmatrix, cowsay, sl
+         apt:
+            name:
+                  - cmatrix
+                  - cowsay
+                  - sl
+            state: present
